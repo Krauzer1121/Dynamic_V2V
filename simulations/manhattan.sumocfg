@@ -1,0 +1,17 @@
+<configuration>
+    <input>
+        <net-file value="manhattan.net.xml"/>
+        <route-files value="manhattan.rou.xml"/>
+        <!-- можно добавить <additional-files> для траф.светофоров, rerouters и др. -->
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+   <output>
+     <fcd-output value="manhattan.output.xml" />
+   </output>
+    <!-- Тут также можно задавать выходные файлы, например vehroute-output, summary, и т.д. -->
+</configuration>

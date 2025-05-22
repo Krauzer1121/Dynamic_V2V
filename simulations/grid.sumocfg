@@ -1,0 +1,18 @@
+<configuration>
+  <input>
+    <net-file value="grid.net.xml" />
+    <route-files value="grid.rou.xml" />
+    <!--<additional-files value="rerouter.add.xml" />-->
+  </input>
+  <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+  <time>
+    <begin value="0" />
+    <end value="10000" />
+  </time>
+   <output>
+     <fcd-output value="grid.output.xml" />
+   </output>
+</configuration>
+
